@@ -1,0 +1,50 @@
+{
+  "name": "mri-check-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "parcel-start": "parcel index.html --open"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.7",
+    "@ant-design/nextjs-registry": "^1.0.0",
+    "@kitware/vtk.js": "^31.2.0",
+    "@nextui-org/react": "^2.4.8",
+    "ami.js": "^0.0.22",
+    "antd": "^5.18.3",
+    "axios": "^1.7.2",
+    "dat.gui": "^0.7.9",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^11.9.0",
+    "itk": "^14.1.1",
+    "lil-gui": "^0.19.2",
+    "next": "14.2.4",
+    "next-view-transitions": "^0.2.0",
+    "nifti-reader-js": "^0.6.8",
+    "parcel": "^1.10.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-horizontal-scrolling-menu": "^7.1.1",
+    "solar-icon-set": "^1.0.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.166.0",
+    "vtk.js": "14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "0.92.23",
+    "babel-core": "^6.26.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "parcel-bundler": "^1.6.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
